@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Random Bombastic Sounds</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body background="img/Hogwarts by Vladislav Pantic.jpeg">
+        <div class="title">
+            <h1>Choose your tema</h1>
+        </div>
+
+        <div class="effects">
+         <div class="icons">
+            <h3>Bluez</h3>
+            <img src="img/guitar.png">
+
+            <div class="keys">
+                <div data-key="a" class="key">
+                    <kbd>A</kbd>
+                </div>
+            </div>
+         </div>
+
+         <div class="icons">
+            <h3>Dead</h3>
+            <img src="img/dead.png">
+            <div class="keys">
+                <div data-key="s" class="key">
+                    <kbd>S</kbd>
+                </div>
+            </div>
+         </div>
+
+         <div class="icons">
+            <h3>Drum</h3>
+            <img src="img/drum.png">
+
+            <div class="keys">
+                <div data-key="d" class="key">
+                    <kbd>D</kbd>
+                </div>
+            </div>
+         </div>
+
+         <div class="icons">
+            <h3>HipHop</h3>
+            <img src="img/yay.png">
+            <div class="keys">
+                <div data-key="f" class="key">
+                    <kbd>F</kbd>
+                </div>
+            </div>
+         </div>
+
+
+         <audio data-key="a" class="Bluez" src="sounds/bluez.mp3"></audio>
+         <audio data-key="s" class="Dead" src="sounds/heroic-intro-21468.mp3"></audio>
+         <audio data-key="d" class="Drum" src="sounds/old-school-hip-hop-drumloop-105bpm-125946.mp3"></audio>
+         <audio data-key="f" class="HipHop" src="sounds/typical-trap-loop-2b-130751.mp3"></audio>
+    </body>
+
+    <script src="app.js" type="module"></script>
+</html>
